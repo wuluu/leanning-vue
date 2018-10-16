@@ -1,0 +1,211 @@
+.music-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f6f6f8;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer-left {
+    display: inline-block;
+}
+
+.footer-left span{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #242424;
+    cursor: pointer;
+}
+.footer-left i {
+    color: #fff;
+}
+
+.back {
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.next {
+    margin-left: 20px;
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.play-pause {
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.fa-play {
+    margin-left: 2px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.volume {
+    margin-left: 1.8rem;
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+
+.volume:hover {
+    color: #444;
+}
+
+.play-state .fa{
+    font-size: 18PX;
+    color: #666;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.play-state .fa:hover {
+    color: #444;
+}  
+
+.list-num {
+    position: absolute;
+    font-size: 14px;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #686868;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #e1e1e2;
+    cursor: pointer;
+}
+
+.list-num:hover .fa-file-text-o {
+    color: #4f4f4f;
+}
+
+.list-icon {
+    font-size: 18px;
+    position: absolute;
+    left: -17px;
+    top: 0;
+    vertical-align: middle;
+}
+
+.list-dialog {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-100%);
+    width: 550px;
+    height: 650px;
+    background-color: #fff;
+    border: 2px solid #cac8ca;
+    box-shadow: 0 0 5px #aaa;
+    overflow-y: auto;
+    z-index: 5;
+    background-color: #fafafa;
+}
+
+.list-head {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #efefef;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.close-dialog{
+    float: right;
+    margin-right: 20px;
+}
+
+.info {
+    height: 28px;
+    font-size: 13px;
+    color: #7c7c7c;
+    line-height: 28px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eae9e9;
+}
+.info-num{
+    margin-left: 40px;
+}
+
+.clear{
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.clear .fa{
+    margin-right: 5px;
+}
+
+.no-song {
+    margin-top: 200px;
+    text-align: center;
+    line-height: normal;
+    color: #b0b0b0;
+}
+
+li {
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    background-color: #fafafa;
+}
+
+li:hover {
+    background-color: #ecedee;
+}
+
+.blue {
+    background-color: #444;
+}
+li:nth-child(even) {
+    background-color: #f5f5f7;
+}
+
+li:nth-child(even):hover {
+    background-color: #ecedee;
+}
+
+li .name{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+li .singer {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+}
+
+li .duration {
+    color: #888;
+}

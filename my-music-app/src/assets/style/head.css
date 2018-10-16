@@ -1,0 +1,242 @@
+.music-head {
+    position: relative;
+    height: 60px;
+    background-color: #242424
+}
+
+.logo, .search {
+    background: url(../img/topbar.png) no-repeat;
+}
+
+.logo {
+    float: left;
+    width: 220px;
+    height: 60px;
+    background-position: 50px -5px;
+}
+
+.search {
+    float: left;
+    width: 220px;
+    height: 32px;
+    margin-top: 14px;
+    margin-left: 100px;
+    border-radius: 32px;
+    background-color: #fff;
+    background-position: 0 -99px;
+}
+
+.search input {
+    border: 0;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.search input:focus{
+    outline: none
+}
+
+.right {
+    float: right;
+    width: 400px;
+    height: 60px;
+}
+
+.right img {
+    height: 32px;
+    width: 32px;
+    margin-top: 14px;
+    border-radius: 50%;
+    vertical-align: middle;
+    float: left;
+    cursor: pointer;
+}
+
+.setting {
+    margin-top: 20px;
+    float: left;
+}
+
+.right .username {
+    color: #ccc;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.right .username:hover {
+    color: #fff
+}
+
+.right .username:after {
+    position: relative;
+    top: 12px;
+    left: 5px;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #ccc;
+}
+
+.right .username:hover:after {
+    border-top-color: #fff;
+}
+
+.setting .fa {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.setting .fa:hover{
+    color: #fff;
+}
+
+.head-dialog {
+    position: absolute;
+    height: 372px;
+    width: 280px;
+    margin-top: 60px;
+    margin-left: -60px;
+    background-color: #fafafa;
+    box-shadow: 0 0 6px #aaa;
+    border-radius: 3px;
+    z-index: 5;
+}
+
+.head-dialog::before {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #fafafa;
+}
+
+.avatar {
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+.avatar-name {
+    color: #777;
+    height: 70px;
+    line-height: 70px;
+}
+
+.sign {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 20px;
+    height: 22px;
+    width: 60px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: #f5f5f7;
+}
+
+.signed {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 20px;
+    height: 22px;
+    width: 60px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #ddd;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    transform: translateY(-50%);
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.social li {
+    display: inline-block;
+    width: 31.3%;
+    text-align: center;
+    border-right: 1px solid #e7e7e7;
+    cursor: pointer;
+}
+
+.social .social_txt{
+    color: #aaa; 
+    font-size: 14px;
+}
+
+.social .social_txt:hover{
+    color: #7b7b7e;
+}
+
+.social .social_num{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.userinfo{
+    list-style: none;
+    border-top: 2px solid #ecedee;
+    
+}
+
+.userinfo li{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.userinfo li:hover{
+    background-color: #ecedee
+}
+
+.userinfo .fa{
+    color: #aaa;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.userinfo .goto{
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.userinfo .gt{
+    color: #ddd;
+}
